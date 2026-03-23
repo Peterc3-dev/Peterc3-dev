@@ -1,38 +1,50 @@
-# Hey, I'm Peter.
+```
+ ██████╗ ███████╗████████╗███████╗██████╗  ██████╗██████╗
+ ██╔══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗██╔════╝╚════██╗
+ ██████╔╝█████╗     ██║   █████╗  ██████╔╝██║      █████╔╝
+ ██╔═══╝ ██╔══╝     ██║   ██╔══╝  ██╔══██╗██║      ╚═══██╗
+ ██║     ███████╗   ██║   ███████╗██║  ██║╚██████╗██████╔╝
+ ╚═╝     ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝ ╚═════╝╚═════╝
+```
 
-I build tools that solve problems I actually have.
+Cybersecurity researcher. Bug bounty hunter. Builder of sharp tools for sharp problems.
 
-Two published Chrome extensions, a game, an Android keyboard, and a growing collection of documented builds — each one starting from real friction and ending with something people can use.
-
----
-
-## What I Build
-
-**Browser Extensions** — Site-specific tools optimized for individual platforms. Not one extension that does everything badly, but focused tools that do one thing well.
-- [Claude Wide Chat](https://github.com/Peterc3-dev/claude-wide-chat) — Expands Claude.ai's chat interface to full screen width
-- [Phosphor Green Stylus](https://github.com/Peterc3-dev/phosphor-green-stylus) — CRT-inspired color themes designed around LCD backlight physics
-
-**Games & Applications**
-- [Whip That Shit!](https://github.com/Peterc3-dev/whip-that-shit) — HTML5 tennis game with whip-timing mechanics
-- [D-Board](https://github.com/Peterc3-dev/d-board) — Ortholinear Android keyboard with true grid layout
-
-**Learning & Documentation**
-- [Learning Forge](https://github.com/Peterc3-dev/learning-forge) — Living documentation across cybersecurity, Linux systems, and web development
+I find authorization bypasses in GraphQL APIs, build security tooling from scratch, and ship Android/Chrome/Linux projects that solve friction I hit daily. Everything I publish includes the reasoning, not just the code.
 
 ---
 
-## How I Work
+### Currently working on
 
-Every project includes full build documentation — not just code, but the conversations, decisions, pivots, and lessons that shaped it. I document the *why* alongside the *what* because the reasoning is more transferable than the implementation.
-
-**Current tracks:** Cybersecurity (bug bounty methodology) · Chrome extension architecture · Linux system administration (CachyOS) · Local AI infrastructure
-
----
-
-## Tech
-
-`JavaScript` · `CSS` · `HTML5` · `Kotlin` · `Linux` · `Git` · `Chrome Extensions API` · `Manifest V3`
+- **GraphQL authorization security** — fuzzing mutation-layer scope enforcement, building tooling around CVE-pattern detection
+- **432 Hz audio tooling** — pitch-shifting pipeline with metadata preservation for Android
+- **Chrome extensions** — CRT magnification lens, accessibility readers, Stylus themes
+- **Distributed inference** — mesh-networked LLM routing across Tailscale nodes (CachyOS/Linux)
 
 ---
 
-*18+ years of self-taught technical experience. Currently building toward cybersecurity and web development roles.*
+### Featured
+
+| Project | What it does |
+|---------|-------------|
+| [`graphql-authz-fuzzer`](https://github.com/Peterc3-dev/graphql-authz-fuzzer) | Detects GraphQL mutation authorization bypass — zero dependencies, pure Python |
+| [`PlateAuth`](https://github.com/Peterc3-dev/PlateAuth) | NFC behavioral biometric authentication research prototype (Android/Kotlin) |
+| [`drowned-terminal`](https://github.com/Peterc3-dev/drowned-terminal) | Retro TUI dashboard + distributed LLM inference mesh over Tailscale |
+| [`retune432-android`](https://github.com/Peterc3-dev/retune432-android) | Batch A440→A432 Hz audio converter with metadata preservation |
+| [`crt-magnifier-lens`](https://github.com/Peterc3-dev/crt-magnifier-lens) | Chrome extension — draggable CRT magnifier with barrel distortion |
+| [`d-board`](https://github.com/Peterc3-dev/d-board) | Ortholinear Android keyboard — true grid layout, zero stagger |
+
+---
+
+### Tech
+
+`Python` · `Kotlin` · `JavaScript` · `Bash` · `C++/OpenGL` · `Android SDK` · `Chrome Extensions (MV3)` · `GraphQL` · `NFC` · `ROCm/HIP` · `Tailscale` · `Linux (CachyOS)` · `Docker`
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Peterc3-dev&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a&title_color=00ff00&icon_color=33ff33&text_color=00ff00" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Peterc3-dev&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0a0a0a&title_color=00ff00&text_color=00ff00" />
+</p>
