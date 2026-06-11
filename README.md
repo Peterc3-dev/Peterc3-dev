@@ -7,7 +7,7 @@
  ╚═╝     ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝ ╚═════╝╚═════╝
 ```
 
-Self-taught systems programmer working at the **GPU / driver / ML-runtime boundary** on AMD APU silicon (Radeon 890M iGPU + XDNA 2 NPU). I build PyTorch backends, patch kernel drivers, and write the upstream bug reports for hardware the software stack hasn't caught up to yet — and I publish all of it.
+Self-taught systems programmer working at the **GPU / driver / ML-runtime boundary**. From-scratch on-device NPU inference across **two vendors' silicon** — AMD (Radeon 890M iGPU + XDNA 2 NPU) and MediaTek (MDLA / APU 650). I build PyTorch backends, patch kernel drivers, drive vendor NPU compilers directly, and write the upstream bug reports for hardware the software stack hasn't caught up to yet — and I publish all of it.
 
 Async / written-first collaborator. Comfortable in Rust and C++ down to the dispatcher, allocator, and SPIR-V level.
 
@@ -19,6 +19,7 @@ Async / written-first collaborator. Comfortable in Rust and C++ down to the disp
 |---------|----------------------|
 | [`torch-vulkan`](https://github.com/Peterc3-dev/torch-vulkan) | From-scratch PyTorch device backend (PrivateUse1 + Vulkan compute) for the Radeon 890M iGPU. 39 hand-written SPIR-V compute shaders, custom allocator, buffer pooling, Q4 matmul. C++17 / pybind11. Functional prototype. |
 | [`amdxdna-strix-fix`](https://github.com/Peterc3-dev/amdxdna-strix-fix) | Kernel driver patch — root-caused and fixed an SMU init-order bug in the in-tree `amdxdna` driver (Linux 6.14+) that left the Ryzen AI NPU dead on cold boot. Brought an otherwise-unusable NPU online. |
+| [`mdla-cnn-engine`](https://github.com/Peterc3-dev/mdla-cnn-engine) | From-scratch INT8 inference engine for a **MediaTek MDLA** phone NPU (MT6886) — drives the on-device Neuron compiler directly, bypassing the gated NeuroPilot SDK. Four stock CNNs run end-to-end on the NPU through one pipeline, hardware-witnessed. Honestly scoped (CNN-only, stock models — the contribution is the path to the silicon). |
 | [`recursive-routing-racer`](https://github.com/Peterc3-dev/recursive-routing-racer) | Tri-processor dispatch runtime — routes ML workloads across CPU + iGPU (Vulkan) + NPU (XDNA) on Ryzen AI 300. REINFORCE-trained scheduler, SQLite-backed state, hardware monitoring. Working prototype, ~5,100 lines Python. |
 | [`kv-compressor`](https://github.com/Peterc3-dev/kv-compressor) | KV-cache compression experiment with a documented **negative result** (`FINDINGS.md`) — measured where the approach stops paying off, written up honestly rather than buried. |
 | [`graphql-authz-fuzzer`](https://github.com/Peterc3-dev/graphql-authz-fuzzer) | GraphQL mutation authorization tester — schema introspection, probe generation, auth-gap classification. Standard-library only, has tests. |
