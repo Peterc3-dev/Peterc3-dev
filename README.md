@@ -55,6 +55,12 @@ Read it: [github.com/Peterc3-dev/cube-memory/tree/master/paper](https://github.c
 
 ---
 
+### Certifications
+
+**GitHub Certified: Agentic AI Developer** — GitHub, July 2026 (Exam GH-600)
+
+---
+
 ### Currently exploring
 
 - **torch-vulkan** — expanding op coverage on the Vulkan/SPIR-V PyTorch backend
