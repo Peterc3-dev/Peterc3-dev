@@ -57,7 +57,7 @@ Read it: [github.com/Peterc3-dev/cube-memory/tree/master/paper](https://github.c
 
 ### Certifications
 
-**GitHub Certified: Agentic AI Developer** — GitHub, July 2026 (Exam GH-600)
+**GitHub Certified: Agentic AI Developer** — GitHub, July 2026 (Exam GH-600). [Verify credential](https://learn.microsoft.com/api/credentials/share/en-us/PeterClemente-1378/EF8E60BA7F3BF8A9?sharingId=243EEB743D6D589F)
 
 ---
 
